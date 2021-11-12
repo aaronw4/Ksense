@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import axios from 'axios';
+import './home.css';
 
 const Home = (props) => {
     const [users, setUsers] = useState([]);
@@ -18,8 +19,9 @@ const Home = (props) => {
     }
 
     return (
-        <div className="App">
-            <table className="table table-striped">
+        <div className='Home'>
+            <h2 className='homeTitle'>Contributors</h2>
+            <table className="table table-striped homeTable">
                 <thead>
                     <tr>
                     <th scope="col">Username</th>

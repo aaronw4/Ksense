@@ -1,0 +1,18 @@
+.post {
+    width: 80%;
+    margin: 20px auto;
+}
+.backButton {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+.postTitle {
+    margin-bottom: 20px;
+}
+.postCard {
+    margin-bottom: 20px;
+}
+#articleTitle {
+    text-decoration: underline;
+}

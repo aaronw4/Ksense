@@ -1,0 +1,10 @@
+.Home {
+    width: 80%;
+    margin: 20px auto;
+}
+.homeTitle {
+    margin-bottom: 20px;
+}
+.homeTable {
+    border: 1px grey solid;
+}
