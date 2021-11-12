@@ -1,6 +1,5 @@
 # Users and Posts
-
-Intern Challenge for Ksense
+_Intern Challenge for Ksense_
 
 This site uses information from {JSON} Placeholder (https://jsonplaceholder.typicode.com/).
 
