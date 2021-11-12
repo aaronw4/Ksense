@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Ksense/static/css/main.b48729db.chunk.css",
+    "main.js": "/Ksense/static/js/main.8742fb3e.chunk.js",
+    "main.js.map": "/Ksense/static/js/main.8742fb3e.chunk.js.map",
+    "runtime-main.js": "/Ksense/static/js/runtime-main.e389451d.js",
+    "runtime-main.js.map": "/Ksense/static/js/runtime-main.e389451d.js.map",
+    "static/js/2.9e0a94fb.chunk.js": "/Ksense/static/js/2.9e0a94fb.chunk.js",
+    "static/js/2.9e0a94fb.chunk.js.map": "/Ksense/static/js/2.9e0a94fb.chunk.js.map",
+    "index.html": "/Ksense/index.html",
+    "static/css/main.b48729db.chunk.css.map": "/Ksense/static/css/main.b48729db.chunk.css.map",
+    "static/js/2.9e0a94fb.chunk.js.LICENSE.txt": "/Ksense/static/js/2.9e0a94fb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e389451d.js",
+    "static/js/2.9e0a94fb.chunk.js",
+    "static/css/main.b48729db.chunk.css",
+    "static/js/main.8742fb3e.chunk.js"
+  ]
+}
