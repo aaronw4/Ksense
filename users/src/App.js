@@ -6,12 +6,13 @@ import './App.css';
 
 function App() {
   const [id, setID] = useState('')
+  const [name, setName] = useState('')
 
   return (
       <div className='App'>
           <Routes>
-            <Route exact path='/' element={<Home setID={setID}/>}/>
-            <Route path='/posts' element={<Posts id={id}/>}/>
+            <Route exact path='/' element={<Home setID={setID} setName={setName}/>}/>
+            <Route path='/posts' element={<Posts id={id} name={name}/>}/>
           </Routes>
       </div>
   )

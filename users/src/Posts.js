@@ -13,7 +13,7 @@ const Posts = (props) => {
 
     return (
         <div>
-            {console.log(posts)}
+            <h2>Posts by {props.name}</h2>
             {posts.map(post => (    
                 <div key={posts.id} className="card">
                     <div className="card-body">

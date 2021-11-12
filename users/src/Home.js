@@ -12,8 +12,9 @@ const Home = (props) => {
             .catch(err => console.log(err))
     },[])
 
-    function handleClick(id) {
+    function handleClick(id, name) {
        props.setID(id)
+       props.setName(name)
     }
 
     return (
@@ -35,7 +36,7 @@ const Home = (props) => {
                             <td>{user.company.name}</td>
                             <td>
                                 <Link to='/posts'>
-                                    <button onClick={() => handleClick(user.id)}>
+                                    <button onClick={() => handleClick(user.id, user.name)}>
                                         See Posts
                                     </button>
                                 </Link>
