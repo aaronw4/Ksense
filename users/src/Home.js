@@ -1,14 +1,15 @@
 import React, {useState, useEffect} from 'react';
-import axios from 'axios'
+import {Link} from 'react-router-dom';
+import axios from 'axios';
 
 const Home = (props) => {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
         axios
-        .get('https://jsonplaceholder.typicode.com/users')
-        .then(res => setUsers(res.data))
-        .catch(err => console.log(err))
+            .get('https://jsonplaceholder.typicode.com/users')
+            .then(res => setUsers(res.data))
+            .catch(err => console.log(err))
     },[])
 
     function handleClick(id) {
@@ -33,9 +34,11 @@ const Home = (props) => {
                             <td>{user.name}</td>
                             <td>{user.company.name}</td>
                             <td>
-                                <button onClick={() => handleClick(user.id)}>
-                                    See Posts
-                                </button>
+                                <Link to='/posts'>
+                                    <button onClick={() => handleClick(user.id)}>
+                                        See Posts
+                                    </button>
+                                </Link>
                             </td>
                         </tr>
                     ))}
